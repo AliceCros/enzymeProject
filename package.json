@@ -22,10 +22,5 @@
   "devDependencies": {
     "dirty-chai": "^2.0.1",
     "husky": "^0.15.0-rc.8"
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "npm test"
-    }
   }
 }
