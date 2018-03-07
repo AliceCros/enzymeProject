@@ -8,7 +8,7 @@ import { expect } from 'chai';
 
 import Todos from './Todos';
 import Todo from './Todo';
- 
+
 describe('<Todos/>', () => {
     const todos = [
         {
