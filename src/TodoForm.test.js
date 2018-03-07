@@ -7,7 +7,7 @@ import { shallow, mount } from 'enzyme';
 import { expect } from 'chai';
 import sinon from 'sinon';
 
-import TodoForm from './TodoForm'
+import TodoForm from './TodoForm';
 
 describe('<TodoForm />', () => {
 
@@ -24,6 +24,6 @@ describe('<TodoForm />', () => {
 
         button.simulate('submit');
         expect(onSubmit).to.have.property('callCount', 1);
-    })
+    });
 
-})
+});
